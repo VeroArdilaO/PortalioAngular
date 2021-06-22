@@ -2,18 +2,20 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
 import { HeroComponent } from './hero/hero.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 
 
 @NgModule({
   declarations: [
     HeaderComponent,
-    HeroComponent
+    HeroComponent,
+    ProjectsComponent
   ],
   exports: [
     HeaderComponent,
-    HeroComponent
-
+    HeroComponent,
+    ProjectsComponent
   ],
   imports: [
     CommonModule
