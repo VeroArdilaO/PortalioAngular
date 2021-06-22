@@ -3,7 +3,9 @@ nav {
     background: #BE3144;
     height: 65px;
     border-bottom: 2px solid  black;
-    position: sticky;
+    position: fixed;
+    width: 100%;
+    
 
     ul {
         list-style: none;
