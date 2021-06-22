@@ -16,6 +16,7 @@ import { ProjectsComponent } from './projects/projects.component';
     HeaderComponent,
     HeroComponent,
     ProjectsComponent
+
   ],
   imports: [
     CommonModule
